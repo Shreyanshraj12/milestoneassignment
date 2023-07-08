@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scroll Progress Bar</title>
+  <style>
+    body {
+      height: 2000px; /* To create a longer page for scrolling */
+      margin: 0;
+      padding: 0;
+    }
+
+    #progressBar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background-color: #ddd;
+      z-index: 9999;
+    }
+
+    #progressBarFill {
+      height: 100%;
+      background-color: #4CAF50;
+      width: 0;
+    }
+  </style>
+</head>
+<body>
+  <div id="progressBar">
+    <div id="progressBarFill"></div>
+  </div>
+
+  <h1>Scroll down the page to see the progress bar in action!</h1>
+
+  <script src="main22.js"></script>
+</body>
+</html>
